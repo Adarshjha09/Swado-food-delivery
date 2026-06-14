@@ -131,13 +131,3 @@ VITE_RAZORPAY_KEY_ID=
 ```
 
 ---
-
-## Screenshots
-
-_Add screenshots of the home page, shop dashboard, checkout flow, and live tracking page here._
-
----
-
-## License
-
-This project is for educational and portfolio purposes.
