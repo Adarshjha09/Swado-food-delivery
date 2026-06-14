@@ -22,7 +22,9 @@ const io=new Server(server,{
     origin:["http://localhost:5173", "https://swado-food-delivery-zaen.vercel.app"],
     credentials:true,
     methods:['POST','GET']
-}
+},
+    transports:['polling','websocket'],
+    allowEIO3:true
 })
 
 app.set("io",io)
