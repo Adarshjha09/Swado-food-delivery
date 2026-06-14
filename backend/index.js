@@ -23,7 +23,7 @@ const io=new Server(server,{
     credentials:true,
     methods:['POST','GET']
 },
-    transports:['polling','websocket'],
+    transports:['polling'],
     allowEIO3:true
 })
 
