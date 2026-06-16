@@ -160,15 +160,14 @@ The app comes pre-loaded with demo data across 6 cities so you can explore all f
 ### Demo Owner Login
 You can log in as any shop owner to explore the Owner Dashboard:
 
-| Email | Password |
-|-------|----------|
-| rajesh.demo@swado.com | Demo@1234 |
-| priya.demo@swado.com | Demo@1234 |
-| amit.demo@swado.com | Demo@1234 |
-| sneha.demo@swado.com | Demo@1234 |
-| vikram.demo@swado.com | Demo@1234 |
-| meera.demo@swado.com | Demo@1234 |
-
+| City | Email | Password |
+|------|-------|----------|
+| Mumbai | rajesh.demo@swado.com | Demo@1234 |
+| Delhi | priya.demo@swado.com | Demo@1234 |
+| Bangalore | amit.demo@swado.com | Demo@1234 |
+| Chennai | sneha.demo@swado.com | Demo@1234 |
+| Hyderabad | vikram.demo@swado.com | Demo@1234 |
+| Pune | meera.demo@swado.com | Demo@1234 |
 > Note: These are read-only demo accounts for exploration purposes.
 
 ## Future Enhancements
