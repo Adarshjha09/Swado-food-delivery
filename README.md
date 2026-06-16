@@ -81,6 +81,7 @@ Swado aims to be a lightweight, easy-to-extend food delivery platform for local 
 | `middlewares/` | Authentication checks (JWT) and file upload handling (Multer) |
 | `utils/` | Helper modules — email sending (Resend), image upload (Cloudinary) |
 | `socket.js` | Socket.io event handlers for real-time location and order updates |
+| `seed.js` | Demo data seeder — pre-loads shops, owners, and menu items across 6 cities |
 
 ### Frontend (`/frontend/src`)
 
@@ -140,6 +141,35 @@ VITE_RAZORPAY_KEY_ID=
 ```
 
 ---
+
+## Demo Data
+
+The app comes pre-loaded with demo data across 6 cities so you can explore all features without setting up your own shops.
+
+### Demo Cities & Shops
+
+| City | Shop | Cuisine |
+|------|------|---------|
+| Mumbai | Spice Garden | North Indian |
+| Delhi | Pizza Palace | Italian |
+| Bangalore | Burger Barn | Fast Food |
+| Chennai | Dosa Corner | South Indian |
+| Hyderabad | Biryani House | Mughlai |
+| Pune | Chinese Wok | Chinese |
+
+### Demo Owner Login
+You can log in as any shop owner to explore the Owner Dashboard:
+
+| Email | Password |
+|-------|----------|
+| rajesh.demo@swado.com | Demo@1234 |
+| priya.demo@swado.com | Demo@1234 |
+| amit.demo@swado.com | Demo@1234 |
+| sneha.demo@swado.com | Demo@1234 |
+| vikram.demo@swado.com | Demo@1234 |
+| meera.demo@swado.com | Demo@1234 |
+
+> Note: These are read-only demo accounts for exploration purposes.
 
 ## Future Enhancements
 
